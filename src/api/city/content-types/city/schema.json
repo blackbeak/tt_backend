@@ -56,6 +56,9 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::country.country"
+    },
+    "widgetResponsiveField": {
+      "type": "string"
     }
   }
 }
