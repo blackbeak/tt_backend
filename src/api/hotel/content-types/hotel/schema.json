@@ -1,0 +1,85 @@
+{
+  "kind": "collectionType",
+  "collectionName": "hotels",
+  "info": {
+    "singularName": "hotel",
+    "pluralName": "hotels",
+    "displayName": "Hotel",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hotelName": {
+      "type": "string"
+    },
+    "headline": {
+      "type": "string"
+    },
+    "shortDesc": {
+      "type": "string"
+    },
+    "benefitOne": {
+      "type": "string"
+    },
+    "benefitTwo": {
+      "type": "string"
+    },
+    "benefitThree": {
+      "type": "string"
+    },
+    "benefitFour": {
+      "type": "string"
+    },
+    "moreHotel": {
+      "type": "richtext"
+    },
+    "hotelImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "eid": {
+      "type": "string"
+    },
+    "responsiveID": {
+      "type": "string"
+    },
+    "hotelLogo": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "benefitHeadline": {
+      "type": "string"
+    },
+    "qrImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "slug": {
+      "type": "string"
+    }
+  }
+}
