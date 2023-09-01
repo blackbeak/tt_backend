@@ -1,0 +1,53 @@
+{
+  "kind": "singleType",
+  "collectionName": "sign_ups",
+  "info": {
+    "singularName": "sign-up",
+    "pluralName": "sign-ups",
+    "displayName": "SignUp"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "headline": {
+      "type": "string"
+    },
+    "shortDesc": {
+      "type": "string"
+    },
+    "formHeadline": {
+      "type": "string"
+    },
+    "formLongDesc": {
+      "type": "richtext"
+    },
+    "heroImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "howItWorksHeadline": {
+      "type": "string"
+    },
+    "howItWorks": {
+      "type": "richtext"
+    },
+    "backgroundImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
