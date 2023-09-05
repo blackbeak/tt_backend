@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "legals",
+  "info": {
+    "singularName": "legal",
+    "pluralName": "legals",
+    "displayName": "legal"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "headline": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "body": {
+      "type": "richtext"
+    },
+    "modifiedDate": {
+      "type": "date"
+    },
+    "backgroundImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

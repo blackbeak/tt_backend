@@ -4,7 +4,8 @@
   "info": {
     "singularName": "index",
     "pluralName": "indices",
-    "displayName": "index"
+    "displayName": "index",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -18,14 +19,15 @@
       "type": "string"
     },
     "homeImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "longDesc": {
       "type": "richtext"
@@ -34,6 +36,16 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::country.country"
+    },
+    "backgroundImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
