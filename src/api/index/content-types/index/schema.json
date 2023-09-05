@@ -4,7 +4,7 @@
   "info": {
     "singularName": "index",
     "pluralName": "indices",
-    "displayName": "index",
+    "displayName": "Index",
     "description": ""
   },
   "options": {
@@ -38,14 +38,15 @@
       "target": "api::country.country"
     },
     "backgroundImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     }
   }
 }
