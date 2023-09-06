@@ -67,17 +67,6 @@
     "benefitHeadline": {
       "type": "string"
     },
-    "qrImage": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
-    },
     "slug": {
       "type": "string"
     },
@@ -86,6 +75,16 @@
     },
     "headerFooterBgColor": {
       "type": "string"
+    },
+    "hotelHero": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
