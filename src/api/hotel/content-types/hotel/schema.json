@@ -19,19 +19,19 @@
       "type": "string"
     },
     "shortDesc": {
-      "type": "string"
+      "type": "text"
     },
     "benefitOne": {
-      "type": "string"
+      "type": "text"
     },
     "benefitTwo": {
-      "type": "string"
+      "type": "text"
     },
     "benefitThree": {
-      "type": "string"
+      "type": "text"
     },
     "benefitFour": {
-      "type": "string"
+      "type": "text"
     },
     "moreHotel": {
       "type": "richtext"
@@ -77,14 +77,15 @@
       "type": "string"
     },
     "hotelHero": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     }
   }
 }
