@@ -1,0 +1,78 @@
+{
+  "kind": "collectionType",
+  "collectionName": "service_providers",
+  "info": {
+    "singularName": "service-provider",
+    "pluralName": "service-providers",
+    "displayName": "ServiceProvider"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "serviceProviderName": {
+      "type": "string"
+    },
+    "headline": {
+      "type": "string"
+    },
+    "shortDesc": {
+      "type": "string"
+    },
+    "longDesc": {
+      "type": "richtext"
+    },
+    "serviceProviderLogo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "serviceProviderImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "eid": {
+      "type": "string"
+    },
+    "responsiveID": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "serviceContactName": {
+      "type": "string"
+    },
+    "serviceContactDesc": {
+      "type": "string"
+    },
+    "serviceContactEmail": {
+      "type": "string"
+    },
+    "qrImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "headerBgColor": {
+      "type": "string"
+    }
+  }
+}
