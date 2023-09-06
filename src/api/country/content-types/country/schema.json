@@ -44,14 +44,21 @@
       "target": "api::city.city"
     },
     "heroImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "eid": {
+      "type": "string"
+    },
+    "responsiveID": {
+      "type": "string"
     }
   }
 }
