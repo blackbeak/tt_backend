@@ -19,7 +19,7 @@
       "type": "string"
     },
     "shortDesc": {
-      "type": "string"
+      "type": "text"
     },
     "slug": {
       "type": "string"
@@ -48,6 +48,17 @@
     },
     "responsiveID": {
       "type": "string"
+    },
+    "heroImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
     }
   }
 }
