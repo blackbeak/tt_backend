@@ -38,26 +38,15 @@
         "audios"
       ]
     },
-    "widgetField": {
+    "eid": {
       "type": "string"
-    },
-    "qrImage": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
     },
     "country": {
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::country.country"
     },
-    "widgetResponsiveField": {
+    "responsiveID": {
       "type": "string"
     }
   }
