@@ -7,9 +7,20 @@ module.exports = [
         useDefaults: true,
         directives: {
           'connect-src': ["'self'", 'https:'],
-          // Ensure to include https:// in the Cloudinary domain
-          'img-src': ["'self'", 'data:', 'blob:', 'https://res.cloudinary.com'],
-          'media-src': ["'self'", 'data:', 'blob:', 'https://res.cloudinary.com'],
+          'img-src': [
+            "'self'",
+            'data:',
+            'blob:',
+            'https://res.cloudinary.com',
+            'https://market-assets.strapi.io' // Add this line for some fucking stupid reason
+          ],
+          'media-src': [
+            "'self'",
+            'data:',
+            'blob:',
+            'https://res.cloudinary.com',
+            // If you also need to allow media from market-assets.strapi.io, add it here
+          ],
           upgradeInsecureRequests: null,
         },
       },
@@ -24,4 +35,3 @@ module.exports = [
   'strapi::favicon',
   'strapi::public',
 ];
-
