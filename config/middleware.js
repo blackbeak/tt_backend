@@ -12,7 +12,7 @@ module.exports = [
             'data:',
             'blob:',
             'https://res.cloudinary.com',
-            'https://market-assets.strapi.io' // Add this line for some fucking stupid reason
+            'https://market-assets.strapi.io' // Add this line for some reason
           ],
           'media-src': [
             "'self'",
