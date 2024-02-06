@@ -13,7 +13,6 @@ module.exports = {
       "strapi::session",
       "strapi::favicon",
       "strapi::public",
-      "global::transform-image-url", // Custom middleware placed appropriately
     ],
     after: ['strapi::router'],
   },
