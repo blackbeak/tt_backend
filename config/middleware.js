@@ -6,20 +6,9 @@ module.exports = [
       contentSecurityPolicy: {
         useDefaults: true,
         directives: {
-          'connect-src': ["'self'", 'https:'],
-          'img-src': [
-            "'self'",
-            'data:',
-            'blob:',
-            'https://res.cloudinary.com'
-          ],
-          'media-src': [
-            "'self'",
-            'data:',
-            'blob:',
-            'https://res.cloudinary.com',
-            // If you also need to allow media from market-assets.strapi.io, add it here
-          ],
+          'connect-src': ['self', 'https:'],
+          'img-src': ['self','data:','blob:','https://res.cloudinary.com'],
+          'media-src': ['self','data:','blob:','https://res.cloudinary.com',],
           upgradeInsecureRequests: null,
         },
       },
