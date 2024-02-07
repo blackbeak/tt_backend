@@ -1,3 +1,4 @@
+console.log("Custom Upload Service Outside Method Loaded");
 'use strict';
 
 module.exports = ({ strapi }) => ({
