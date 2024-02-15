@@ -59,6 +59,9 @@
     },
     "responsiveID": {
       "type": "string"
+    },
+    "countryid": {
+      "type": "integer"
     }
   }
 }

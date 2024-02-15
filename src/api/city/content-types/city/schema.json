@@ -59,6 +59,9 @@
         "videos",
         "audios"
       ]
+    },
+    "cityid": {
+      "type": "integer"
     }
   }
 }

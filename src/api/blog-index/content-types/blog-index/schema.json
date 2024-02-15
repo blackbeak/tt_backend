@@ -1,10 +1,10 @@
 {
   "kind": "singleType",
-  "collectionName": "indices",
+  "collectionName": "blog_indices",
   "info": {
-    "singularName": "index",
-    "pluralName": "indices",
-    "displayName": "Index",
+    "singularName": "blog-index",
+    "pluralName": "blog-indices",
+    "displayName": "blogIndex",
     "description": ""
   },
   "options": {
@@ -18,7 +18,7 @@
     "shortDesc": {
       "type": "string"
     },
-    "homeImage": {
+    "heroBackground": {
       "type": "media",
       "multiple": false,
       "required": false,
@@ -29,15 +29,7 @@
         "audios"
       ]
     },
-    "longDesc": {
-      "type": "richtext"
-    },
-    "countries": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::country.country"
-    },
-    "backgroundImage": {
+    "heroArticleImage": {
       "type": "media",
       "multiple": false,
       "required": false,
@@ -48,14 +40,24 @@
         "audios"
       ]
     },
-    "warmDests": {
+    "articleHero": {
       "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::country.country"
+      "relation": "oneToOne",
+      "target": "api::article.article"
     },
-    "winterDests": {
+    "articlesRight": {
       "type": "relation",
       "relation": "oneToMany",
+      "target": "api::article.article"
+    },
+    "city": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::city.city"
+    },
+    "country": {
+      "type": "relation",
+      "relation": "oneToOne",
       "target": "api::country.country"
     }
   }

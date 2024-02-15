@@ -53,6 +53,16 @@
         "shared.rich-text",
         "shared.slider"
       ]
+    },
+    "city": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::city.city"
+    },
+    "country": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::country.country"
     }
   }
 }
