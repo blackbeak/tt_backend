@@ -902,7 +902,7 @@ export interface ApiAuthorAuthor extends Schema.CollectionType {
       'api::article.article'
     >;
     linkedin: Attribute.String;
-    bio: Attribute.String;
+    bio: Attribute.Text;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     createdBy: Attribute.Relation<

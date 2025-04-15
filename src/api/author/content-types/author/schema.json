@@ -38,7 +38,7 @@
       "type": "string"
     },
     "bio": {
-      "type": "string"
+      "type": "text"
     }
   }
 }
