@@ -63,6 +63,21 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::country.country"
+    },
+    "serviceIDOne": {
+      "type": "biginteger"
+    },
+    "serviceIDTwo": {
+      "type": "biginteger"
+    },
+    "serviceIDThree": {
+      "type": "biginteger"
+    },
+    "serviceIDFour": {
+      "type": "biginteger"
+    },
+    "serviceIDFive": {
+      "type": "biginteger"
     }
   }
 }

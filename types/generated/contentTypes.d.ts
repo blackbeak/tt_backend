@@ -858,6 +858,11 @@ export interface ApiArticleArticle extends Schema.CollectionType {
       'oneToOne',
       'api::country.country'
     >;
+    serviceIDOne: Attribute.BigInteger;
+    serviceIDTwo: Attribute.BigInteger;
+    serviceIDThree: Attribute.BigInteger;
+    serviceIDFour: Attribute.BigInteger;
+    serviceIDFive: Attribute.BigInteger;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
